@@ -20,9 +20,13 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 ### Little-o Proof
 
 $f(n)\in o(g(n)) \iff  \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
+
 $f(n)\in o(g(n)) \implies  \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$ {bidirectional implication}
+
 $f(n)\in o(g(n)) \implies f(n)\in$ { $\forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$} {definition of belonging}
+
 $f(n)\in o(g(n)) \implies f(n)\in$ { $\forall c>0, \exists n_0, \forall n\ge n_0: f(n) \le c g(n)$} {definition of less than or equal to}
+
 $f(n)\in o(g(n)) \implies f(n)\in O(g(n))$ {definition of big-O} Q.E.D.
 
 there was probably a simpler way to do this but maybe this works?
