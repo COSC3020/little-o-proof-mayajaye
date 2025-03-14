@@ -27,7 +27,7 @@ $f(n)\in o(g(n)) \implies f(n)\in$ { $\forall c>0, \exists n_0, \forall n\ge n_0
 
 $f(n)\in o(g(n)) \implies f(n)\in$ { $\exists c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$} {migrate $\forall c → \exists c$}
 
-$f(n)\in o(g(n)) \implies f(n)\in$ { $\forall c>0, \exists n_0, \forall n\ge n_0: f(n) \le c g(n)$} {definition of less than or equal to}
+$f(n)\in o(g(n)) \implies f(n)\in$ { $\exists c>0, \exists n_0, \forall n\ge n_0: f(n) \le c g(n)$} {definition of less than or equal to}
 
 $f(n)\in o(g(n)) \implies f(n)\in O(g(n))$ {definition of big-O} Q.E.D.
 
